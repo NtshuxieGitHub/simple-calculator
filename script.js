@@ -1,7 +1,8 @@
 /**
  * Import Calculator class from calculator.js
  */
-const Calculator = require("./calculator.js");
+import Calculator from "./calculator.js";
+console.log("Calculator imported:", Calculator);
 
 /**
  * Create calculator constant variables
